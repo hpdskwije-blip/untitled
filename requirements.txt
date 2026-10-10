@@ -1,0 +1,8 @@
+# NENAPIYUMA AI USB Dependencies (Pinned for Portable Windows x64 Build)
+PySide6>=6.6.0,<6.8.0
+llama-cpp-python>=0.2.85
+psutil>=5.9.8
+requests>=2.31.0
+tqdm>=4.66.4
+pyinstaller>=6.8.0
+pytest>=8.2.0

@@ -1,0 +1,6 @@
+{
+  "name": "NENAPIYUMA AI USB",
+  "description": "Complete offline Sinhala AI assistant powered by Gemma 2 2B with portable USB Guard security scanning for Windows.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

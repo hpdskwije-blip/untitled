@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller
+*.manifest
+*.spec
+build/
+dist/
+
+# Local databases and runtime state
+.nenapiyuma/
+*.db
+*.vir
+
+# Large model weights (downloaded during CI build or local setup)
+models/*.gguf
+!models/.gitkeep
+
+# ClamAV database signatures and binaries (fetched in CI)
+tools/clamav/clamscan.exe
+tools/clamav/database/*.cvd
+tools/clamav/database/*.cld
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Unit test artifacts
+.pytest_cache/
